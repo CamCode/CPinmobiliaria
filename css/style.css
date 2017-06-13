@@ -1,26 +1,28 @@
 /* Colors */
 
 body {
-    font: Arial, Helvetica, sans-serif;
-	text-align:justify;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
 }
 
 h2 {
     font-size: 6em;
-    color: #434d8b;
-    font: Times New Roman, Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
-    font-size: 4em;
-    color: #434d8b;
+    font-size: 2.7em;
+    color: #fff;
 }
 
 h4,
 h3 {
-    color: #319ACF;
+    font-size: 20px;
+    color: #fff;
 }
-.resume{
+
+.resume {
     font-size: 16px;
 }
 
@@ -50,6 +52,34 @@ small {
     position: absolute;
     top: 0px;
     right: 13px;
+}
+
+.container-fluid {
+    padding: 0px!important;
+}
+
+.page-header {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/header_bg.png);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+}
+
+.page-header h1 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.page-header h4 {
+    margin-top: 2px;
+}
+
+.page-header img {
+    margin-top: 10px;
+    margin-left: 15PX;
+    padding: 10px
 }
 
 @media (max-width: 767px) {
@@ -147,9 +177,6 @@ a {
 }
 
 @media (max-width: 640px) {
-    .page-header {
-        margin: 58px 0 20px!important;
-    }
     .menu-cerco {
         height: auto;
         background-color: #319ACF;
@@ -354,44 +381,11 @@ a {
 }
 
 footer {
-    background-color: #319ACF;
+    background-color: #319acf;
     padding: 10px;
     margin-bottom: 100px;
-}
-
-footer .fot-box {
-    min-height: 100px;
-    max-height: 160px;
-    overflow: hidden;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-footer .fot-box a {
-    display: block;
-}
-
-footer .footerRow:nth-child(1n) img {
-    min-width: 64%;
-    max-width: 60%;
-    float: none!important;
-}
-
-footer .footerRow:nth-child(1n) a {
-    min-width: 100%;
-    max-width: 100%;
-}
-
-footer .footerRow:nth-child(2n) img {
-    min-width: 65%;
-    max-width: 60%;
-    float: none!important;
-}
-
-footer .footerRow:nth-child(2n) a {
-    min-width: 100%;
-    max-width: 100%;
+    color: #fff;
+    text-align: right;
 }
 
 #list-sect .media p {
