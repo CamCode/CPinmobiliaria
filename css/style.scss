@@ -1,0 +1,163 @@
+$font-stack: Arial, Helvetica, sans-serif;
+
+/* Colors */
+$font-white: #fff;
+$font-text: #1d1b1b;
+$nav-color: #319ACF;
+$font-bold: 600;
+
+//size
+$font-nav: 13px;
+
+body {
+    font: $font-stack;
+}
+
+.container {
+    width: 1000px;
+}
+
+section {
+    margin: 10px auto;
+}
+
+%text-nav {
+    text-transform: uppercase;
+    color: $font-white;
+    font-weight: $font-bold;
+    font-size: $font-nav;
+}
+
+//menu cerco casa
+#nav-cerco {
+    background-color: $nav-color;
+    height: 50px;
+    padding: 0px;
+    @extend %text-nav;
+
+    li {
+        &:hover {
+            background-color: $nav-color;
+        }
+
+        a {
+            @extend %text-nav;
+        }
+    }
+
+    .navbar-right {
+        li {
+            &:hover {
+                background-color: $nav-color;
+
+                a {
+                    background-color: lighten( $nav-color, 10% );
+                }
+            }
+        }
+    }
+}
+
+.menu-cerco {
+    padding: 0px 15px;
+    height: 46px;
+    border-bottom: 4px solid $nav-color;
+    @extend %text-nav;
+
+    ul {
+        li {
+            text-align: center;
+
+            &:hover {
+                background-color: $nav-color;
+
+                a {
+                    border-bottom: 4px solid #fff;
+                }
+            }
+
+            &:active {
+                a {
+                    background-color: $nav-color;
+                }
+            }
+
+            a {
+                color: $font-white;
+                padding: 10px 15px;
+                height: auto;
+
+                &:hover {
+                    background-color: $nav-color;
+                }
+            }
+        }
+    }
+
+    .navbar-main {
+        padding: 5px 15px;
+        margin: auto;
+    }
+}
+//formulario busqueda
+#form-wrapper {
+    margin-top: 30px;
+
+    .panel {
+        padding: 15px 0px;
+    }
+
+    .row {
+        margin-top: 15px;
+    }
+}
+//section color
+#color-wrap {
+    background-color: lighten( $nav-color, 10% );
+    height: 260px;
+}
+//wrap ventajas
+#ventajas-wrap {
+    padding: 15px 0px;
+
+    .box-vn {
+        text-align: center;
+    }
+}
+//video section
+.video-section {
+    .pattern-overlay {
+        background-color: rgba(71, 71, 71, 0.59);
+        padding: 110px 0 32px;
+        min-height: 496px;
+        /* Incase of overlay problems just increase the min-height*/
+    }
+
+    h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 110px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 40px auto 0px;
+        text-shadow: 1px 1px 1px #000;
+        -webkit-text-shadow: 1px 1px 1px #000;
+        -moz-text-shadow: 1px 1px 1px #000;
+    }
+
+    h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        font-weight: lighter;
+        margin: 0px auto 15px;
+    }
+
+    .buttonBar {
+        display: none;
+    }
+}
+
+.player {
+    font-size: 1px;
+}
