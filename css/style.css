@@ -481,7 +481,13 @@ footer {
 footer .container-fluid {
     width: 100%;
 }
-
+#list-sect h3{
+    color: #319acf;
+}
+#list-sect .categorieWrap{
+    margin-left: 10px;
+    height: auto;
+}
 #list-sect .media p {
     max-height: 143px;
     overflow: hidden;
