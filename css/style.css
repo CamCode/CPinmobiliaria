@@ -326,6 +326,7 @@ a.list-group-item, button.list-group-item {
     padding: 15px 0px;
     width: 80%;
     margin: auto;
+    margin-bottom: 40px;
 }
 #ventajas-wrap .box-vn {
     padding: 0px 25px;
@@ -346,6 +347,10 @@ a.list-group-item, button.list-group-item {
     left: 0px;
     bottom: -10px;
 
+}
+
+#ventajas-wrap .box-vn .frecciu{
+    max-height:10px;
 }
 #ventajas-wrap .box-vn  h3{
     font-size: 18px;
@@ -439,11 +444,16 @@ a.list-group-item, button.list-group-item {
 }
 
 footer {
+    width: 100%;
     background-color: #319acf;
-    padding: 10px;
-    margin-bottom: 100px;
+    padding: 40px 5px 5px 5px;
     color: #fff;
     text-align: right;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+footer  .container-fluid{
+    width: 100%;
 }
 
 #list-sect .media p {
@@ -485,10 +495,18 @@ footer {
 .list-group-item {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 12px 15px;
     margin-bottom: -1px;
     background-color: #fff;
     border: 1px solid #ddd;
+}
+
+.list-group-item:after{
+    content: '\25C0';
+    font-size: 13px;
+    vertical-align: middle;
+    margin-left: 5px;
+    display: inline-block;
 }
 
 .box-footer .badge {
