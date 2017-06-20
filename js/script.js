@@ -35,7 +35,7 @@
     });
 
 
-    if ($(window).width() < 640) {
+    if ($(window).width() < 767) {
 
         $('#nav-items').hide();
 

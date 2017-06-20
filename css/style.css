@@ -31,7 +31,7 @@ h4 .label {
 }
 
 .btn-info {
-    background-color: #319acf!important
+    background-color: #5988BE!important
 }
 
 small {
@@ -59,8 +59,10 @@ small {
     margin: 0px;
     background-image: url(../img/header_bg.png);
     width: 100%;
-    height: 150px;
-    background-size: cover;
+    height: 11vw;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
 
 .page-header h1 {
@@ -75,13 +77,15 @@ small {
 .page-header img {
     margin-top: 10px;
     margin-left: 15PX;
-    padding: 10px
+    padding: 10px;
+    max-width: 150px;
+    width: 100%;
 }
 
 .categorieWrap {
     padding: 10px;
     margin-top: 30px;
-    border: 15px solid #319ACF;
+    border: 15px solid #5988BE;
     height: 518px;
 }
 
@@ -92,7 +96,7 @@ small {
 
 a.list-group-item,
 button.list-group-item {
-    color: #319ACF;
+    color: #5988BE;
 }
 
 .categorieWrap .list-group-item {
@@ -106,7 +110,7 @@ button.list-group-item {
     margin-bottom: -1px;
     background-color: #fff;
     border: none;
-    border-bottom: 3px solid #319ACF;
+    border-bottom: 3px solid #5988BE;
 }
 
 .categorieWrap .list-group-item a:hover {
@@ -115,12 +119,6 @@ button.list-group-item {
 
 .categorieWrap .list-group-item:last-child {
     border-bottom: none;
-}
-
-@media (max-width: 767px) {
-    .container {
-        width: 95vw;
-    }
 }
 
 section {
@@ -142,23 +140,23 @@ section {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-    background-color: #319ACF;
+    background-color: #5988BE;
 }
 
 .label-primary {
-    background-color: #319ACF;
+    background-color: #5988BE;
 }
 
 .text-primary {
-    color: #319ACF;
+    color: #5988BE;
 }
 
 a {
-    color: #319ACF;
+    color: #5988BE;
 }
 
 #nav-cerco {
-    background-color: #319ACF;
+    background-color: #5988BE;
     height: 50px;
     padding: 0px;
     z-index: 9999;
@@ -168,11 +166,11 @@ a {
 }
 
 #nav-cerco li:hover {
-    background-color: #319ACF;
+    background-color: #5988BE;
 }
 
 #nav-cerco .navbar-right li:hover {
-    background-color: #319ACF;
+    background-color: #5988BE;
 }
 
 #nav-cerco .navbar-right li:hover a {
@@ -189,23 +187,79 @@ a {
 }
 
 #nav-responsive {
-    background-color: #319ACF;
+    background-color: #5988BE;
     margin: auto;
 }
 
 .menu-cerco {
     padding: 0px 15px;
     height: 46px;
-    border-bottom: 4px solid #319ACF;
+    border-bottom: 4px solid #5988BE;
     z-index: 9999;
 }
 
+@media (min-width: 1600px) {
+    .page-header {
+        padding-top: 20px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1137px) {
+    .page-header h1 {
+        margin-bottom: 11px;
+        font-size: 28px;
+    }
+    .page-header h4 {
+        margin-top: 2px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px) {
+    .page-header h1 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .page-header {
+        height: 12vw;
+    }
+}
+
+@media (max-width: 767px) {
+    #form-wrapper .panel {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 2.5em;
+        color: #434d8b;
+        font: Times New Roman, Arial, Helvetica, sans-serif;
+    }
+    #publi-wrap {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 95vw;
+    }
+}
+
 @media (max-width: 640px) {
+    .page-header {
+        background-size: cover;
+        height: 160px;
+        background-position: 0%;
+    }
     #nav-cerco {
         position: fixed;
         top: 0px;
         height: auto;
-        background-color: #319ACF;
+        background-color: #5988BE;
         z-index: 9999;
         text-align: center;
     }
@@ -220,12 +274,12 @@ a {
     .categorieWrap {
         padding: 10px;
         margin-top: 30px;
-        border: 15px solid #319ACF;
+        border: 15px solid #5988BE;
         height: 343px;
     }
     .menu-cerco {
         height: auto;
-        background-color: #319ACF;
+        background-color: #5988BE;
         z-index: 9999;
     }
     #ventajas-wrap .box-vn p {
@@ -261,7 +315,7 @@ a {
 }
 
 .menu-cerco ul li:hover {
-    background-color: #319ACF;
+    background-color: #5988BE;
 }
 
 .menu-cerco ul li:hover a {
@@ -269,7 +323,7 @@ a {
 }
 
 .menu-cerco ul li:active a {
-    background-color: #319ACF;
+    background-color: #5988BE;
 }
 
 .menu-cerco ul li a {
@@ -279,7 +333,7 @@ a {
 }
 
 .menu-cerco ul li a:hover {
-    background-color: #319ACF;
+    background-color: #5988BE;
 }
 
 .menu-cerco .navbar-main {
@@ -302,7 +356,7 @@ a {
 }
 
 .form-home {
-    background-color: #319ACF;
+    background-color: #5988BE;
     padding: 20px;
     box-sizing: border-box;
     /*margin-left: -26%;
@@ -322,34 +376,6 @@ a {
 #form-wrapper .panel {
     padding: 0px 0px 15px 0px;
     margin: auto;
-}
-
-@media (max-width: 767px) {
-    #form-wrapper .panel {
-        padding: 10px;
-    }
-    h1 {
-        font-size: 2em;
-    }
-    h2 {
-        font-size: 2.5em;
-        color: #434d8b;
-        font: Times New Roman, Arial, Helvetica, sans-serif;
-    }
-    #publi-wrap {
-        display: none;
-    }
-}
-
-@media (max-width: 1137px) {
-    .page-header h1 {
-        margin-bottom: 11px;
-        font-size: 28px;
-    }
-    .page-header h4 {
-        margin-top: 2px;
-        font-size: 14px;
-    }
 }
 
 #form-wrapper .row {
@@ -376,7 +402,7 @@ a {
     display: inline-block;
     width: 100%;
     text-align: center;
-    height: 200px;
+    max-height: 420px;
     overflow: hidden;
     border-radius: 5%;
 }
@@ -391,12 +417,16 @@ a {
 #ventajas-wrap .box-vn .frecciu {
     max-height: 10px;
 }
+#ventajas-wrap .box-vn .frecciu a{
+    margin-left:5px;
+    width: auto;
+}
 
 #ventajas-wrap .box-vn h3 {
     font-size: 18px;
     height: 30px;
     font-weight: 700;
-    color: #319acf;
+    color: #5988BE;
     text-align: left;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -470,7 +500,7 @@ a {
 
 footer {
     width: 100%;
-    background-color: #319acf;
+    background-color: #5988BE;
     padding: 40px 5px 5px 5px;
     color: #fff;
     text-align: right;
@@ -481,13 +511,16 @@ footer {
 footer .container-fluid {
     width: 100%;
 }
-#list-sect h3{
-    color: #319acf;
+
+#list-sect h3 {
+    color: #5988BE;
 }
-#list-sect .categorieWrap{
+
+#list-sect .categorieWrap {
     margin-left: 10px;
     height: auto;
 }
+
 #list-sect .media p {
     max-height: 143px;
     overflow: hidden;
