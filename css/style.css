@@ -396,6 +396,18 @@ a {
 
 #ventajas-wrap .box-vn {
     padding: 0px 25px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#ventajas-wrap .box-vn h3.p{
+    font-size: 15px;
+    color: #5988BE;
+}
+
+#ventajas-wrap .box-vn .rosso {
+    font-size: 14px;
+    color: #ab2323;
 }
 
 #ventajas-wrap .box-vn a {
@@ -405,6 +417,13 @@ a {
     max-height: 420px;
     overflow: hidden;
     border-radius: 5%;
+    color: #000;
+    font-size: 13px;
+}
+
+#ventajas-wrap .box-vn a:hover {
+    color: #5988BE;
+    text-decoration: none;
 }
 
 #ventajas-wrap .box-vn a img {
@@ -417,8 +436,9 @@ a {
 #ventajas-wrap .box-vn .frecciu {
     max-height: 10px;
 }
-#ventajas-wrap .box-vn .frecciu a{
-    margin-left:5px;
+
+#ventajas-wrap .box-vn .frecciu a {
+    margin-left: 5px;
     width: auto;
 }
 
@@ -427,9 +447,9 @@ a {
     height: 30px;
     font-weight: 700;
     color: #5988BE;
-    text-align: left;
+    text-align: center;
     text-transform: capitalize;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #ventajas-wrap .box-vn .img-responsive {
@@ -438,7 +458,7 @@ a {
 
 #ventajas-wrap .box-vn p {
     margin: 0px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .video-section {
