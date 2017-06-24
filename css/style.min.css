@@ -1,8 +1,8 @@
-body{text-align:justify}h2{font-size:6em;color:#fff}h6{font-family:"Times New Roman",Times,serif;font-size:2.7em;color:#fff}h1{font-family:Arial,Helvetica,sans-serif;font-size:2.7em;color:#5489c1}
-h3{font-size:20px;color:#5988be;font-family:Arial,Helvetica,sans-serif}h4{font-size:20px;color:#5988be;font-family:Arial,Helvetica,sans-serif}.resume{font-size:16px}
-h4 .label{font-size:1em!important}.btn-info{background-color:#5988be!important}small{font-size:1em;color:#999}.hide{display:none}.container{width:68vw}
-#carouselButtons{margin-left:100px;position:absolute;top:0;right:13px}.page-header{padding:0;margin:0;background-image:url(../img/header_bg.png);width:100%;height:11vw;background-size:100%;background-position:50%;background-repeat:no-repeat}
-.page-header h1{margin-top:40px;margin-bottom:5px}.page-header h4{margin-top:2px;color:#fff}.page-header img{margin-top:10px;margin-left:15PX;padding:10px;max-width:150px;width:100%}
+body{text-align:justify}h2{font-size:6em;color:#fff}h6{font-family:Arial,Helvetica,sans-serif;font-size:2.7em;margin-top:40px;margin-bottom:5px;color:#fff}
+h1{font-family:Arial,Helvetica,sans-serif;font-size:2.7em;color:#5489c1}h3{font-size:20px;color:#5988be;font-family:Arial,Helvetica,sans-serif}h4{font-size:20px;color:#5988be;font-family:Arial,Helvetica,sans-serif}
+.resume{font-size:16px}h4 .label{font-size:1em!important}.btn-info{background-color:#5988be!important}small{font-size:1em;color:#999}.hide{display:none}
+.container{width:68vw}#carouselButtons{margin-left:100px;position:absolute;top:0;right:13px}.page-header{padding:0;margin:0;background-image:url(../img/header_bg.png);width:100%;height:11vw;background-size:100%;background-position:50%;background-repeat:no-repeat}
+.page-header h1{margin-top:40px;margin-bottom:5px;color:#fff}.page-header h4{margin-top:2px;color:#fff}.page-header img{margin-top:10px;margin-left:15PX;padding:10px;max-width:150px;width:100%}
 .categorieWrap{padding:10px;margin-top:30px;border:15px solid #5988be;height:518px}.categorieWrap .list-group-item:first-child{border-top-left-radius:0;border-top-right-radius:0}
 a.list-group-item,button.list-group-item{color:#5988be}.categorieWrap .list-group-item{text-transform:uppercase;padding:5px 2px;font-size:14px;position:relative;display:block;text-align:right;padding:10px 15px;margin-bottom:-1px;background-color:#fff;border:0;border-bottom:3px solid #5988be}
 .categorieWrap .list-group-item a:hover{background-color:#fff}.categorieWrap .list-group-item:last-child{border-bottom:0}section{margin:10px auto}#nav-cerco,#nav-cerco li a,.menu-cerco{text-transform:uppercase;color:#fff;font-weight:600;font-size:12px}
@@ -10,19 +10,13 @@ a.list-group-item,button.list-group-item{color:#5988be}.categorieWrap .list-grou
 .label-primary{background-color:#5988be}.text-primary{color:#5988be}a{color:#5988be}#nav-cerco{background-color:#5988be;height:50px;padding:0;z-index:9999;margin:auto;display:block;width:100%}
 #nav-cerco li:hover{background-color:#5988be}#nav-cerco .navbar-right li:hover{background-color:#5988be}#nav-cerco .navbar-right li:hover a{background-color:#5aaed9}
 #nav-cerco .navbar-toggle{background:#d9edf7;margin-right:22px}#nav-cerco .navbar-toggle .icon-bar{background-color:gray}#nav-responsive{background-color:#5988be;margin:auto}
-.menu-cerco{padding:0 15px;height:46px;border-bottom:4px solid #5988be;z-index:9999}@media(min-width:1600px){.page-header{padding-top:20px;height:200px}
-}@media(max-width:1137px){.page-header h1{margin-bottom:11px;font-size:28px}.page-header h4{margin-top:2px;font-size:14px}}@media(max-width:991px){.page-header h1{margin-top:20px;margin-bottom:5px}
-.page-header{height:12vw}}@media(max-width:767px){#form-wrapper .panel{padding:10px}h1{font-size:2em}h2{font-size:2.5em;color:#434d8b;font:Times New Roman,Arial,Helvetica,sans-serif}
-#publi-wrap{display:none}}@media(max-width:767px){.container{width:95vw}}@media(max-width:640px){.page-header{background-size:cover;height:160px;background-position:0 0}
-#nav-cerco{position:fixed;top:0;height:auto;background-color:#5988be;z-index:9999;text-align:center}.page-header{margin-top:30px}.page-header img{margin-top:52px;margin-left:0;padding:0}
-.categorieWrap{padding:10px;margin-top:30px;border:15px solid #5988be;height:343px}.menu-cerco{height:auto;background-color:#5988be;z-index:9999}#ventajas-wrap .box-vn p{width:100%!important}
-.form-fixed{display:none}#form-wrapper-mob{padding:10px}#form-wrapper-mob .tab-content{padding:15px}.table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td{display:block;width:100%}
-.form-group>div{display:block;margin:auto 15px;width:90%}}.menu-cerco ul li{text-align:center}.menu-cerco ul li:hover{background-color:#5988be}.menu-cerco ul li:hover a{border-bottom:4px solid #fff}
-.menu-cerco ul li:active a{background-color:#5988be}.menu-cerco ul li a{color:#fff;padding:10px 20px;height:auto}.menu-cerco ul li a:hover{background-color:#5988be}
-.menu-cerco .navbar-main{padding:5px 0;margin:auto}.f-nav{position:fixed;top:0}.form-fixed{position:fixed;top:47px;z-index:99999}.form-home{background-color:#5988be;padding:20px;box-sizing:border-box}
-.form-home .panel{padding:0 0 15px 0;width:100%;margin:auto}#form-wrapper{margin-top:30px}#form-wrapper .panel{padding:0 0 15px 0;margin:auto}#form-wrapper .row{margin-top:15px}
-#color-wrap{background-color:#5aaed9;height:260px}#ventajas-wrap{padding:15px 0;width:80%;margin:auto;margin-bottom:40px}#ventajas-wrap .box-vn{padding:0 25px;text-align:center;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
-#ventajas-wrap .box-vn h3.p{font-size:15px;color:#5988be}#ventajas-wrap .box-vn .rosso{font-size:16px;color:#ab2323}#ventajas-wrap .box-vn a{display:inline-block;width:100%;text-align:center;max-height:420px;overflow:hidden;border-radius:5%;color:#000;font-size:14.5px}
+.menu-cerco{padding:0 15px;height:46px;border-bottom:4px solid #5988be;z-index:9999}.menu-cerco ul li{text-align:center}.menu-cerco ul li:hover{background-color:#5988be}
+.menu-cerco ul li:hover a{border-bottom:4px solid #fff}.menu-cerco ul li:active a{background-color:#5988be}.menu-cerco ul li a{color:#fff;padding:10px 20px;height:auto}
+.menu-cerco ul li a:hover{background-color:#5988be}.menu-cerco .navbar-main{padding:5px 0;margin:auto}.f-nav{position:fixed;top:0}.form-fixed{position:fixed;top:47px;z-index:99999}
+.form-home{background-color:#5988be;padding:20px;box-sizing:border-box}.form-home .panel{padding:0 0 15px 0;width:100%;margin:auto}#form-wrapper{margin-top:30px}
+#form-wrapper .panel{padding:0 0 15px 0;margin:auto}#form-wrapper .row{margin-top:15px}#color-wrap{background-color:#5aaed9;height:260px}#ventajas-wrap{padding:15px 0;width:80%;margin:auto;margin-bottom:40px}
+#ventajas-wrap .box-vn{padding:0 25px;text-align:center;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}#ventajas-wrap .box-vn h3.p{font-size:15px;color:#5988be}
+#ventajas-wrap .box-vn .rosso{font-size:16px;color:#ab2323}#ventajas-wrap .box-vn a{display:inline-block;width:100%;text-align:center;max-height:420px;overflow:hidden;border-radius:5%;color:#000;font-size:14.5px}
 #ventajas-wrap .box-vn a:hover{color:#5988be;text-decoration:none}#ventajas-wrap .box-vn a img{width:100%;position:relative;left:0;bottom:-10px}#ventajas-wrap .box-vn .frecciu{max-height:10px}
 #ventajas-wrap .box-vn .frecciu a{margin-left:5px;width:auto}#ventajas-wrap .box-vn h3{font-size:18px;font-weight:700;color:#5988be;text-align:center;text-transform:capitalize;margin-bottom:12px}
 #ventajas-wrap .box-vn .img-responsive{margin:auto}#ventajas-wrap .box-vn p{margin-top:11px;font-size:17px;color:#5988be}.video-section{height:30vw;overflow:hidden;width:70%;margin:10px auto}
@@ -37,4 +31,11 @@ footer .container-fluid{width:100%}#list-sect h3{color:#5988be}#list-sect .categ
 .box-footer .border-right{border-right:1px solid #f4f4f4}.description-block{display:block;margin:10px 0;text-align:center}.description-block>.description-header{margin:0;padding:0;font-weight:600;font-size:16px}
 .description-block>.description-text{text-transform:uppercase}.well{background-color:#d9edf7}.checkbox-inline{text-transform:lowercase}.checkbox-inline input{text-transform:capitalize}
 .divascookies{top:auto!important;bottom:0!important;font-size:.7em!important}.divascookies-banner-container>.divascookies-accept-button-container{display:block!important;width:100px;margin:auto}
-.carousel-inner>.item>img,.carousel-inner>.item>a>img{width:70%;margin:auto}
+.carousel-inner>.item>img,.carousel-inner>.item>a>img{width:70%;margin:auto}@media(min-width:1600px){.page-header{padding-top:20px;height:200px}}@media(max-width:1137px){.page-header h1{margin-bottom:11px;font-size:28px}
+.page-header h4{margin-top:2px;font-size:14px}}@media(max-width:991px){.page-header h1{margin-top:20px;margin-bottom:5px}.page-header{height:12vw}}@media(max-width:767px){.container{width:95vw}
+#form-wrapper .panel{padding:10px}h1{font-size:2em}h2{font-size:2.5em;color:#434d8b;font:Times New Roman,Arial,Helvetica,sans-serif}#publi-wrap{display:none}
+}@media(max-width:640px){h6{font-family:Arial,Helvetica,sans-serif;font-size:2em;margin-top:40px;margin-bottom:5px;color:#fff}.page-header{background-size:cover;height:160px;background-position:0 0}
+#nav-cerco{position:fixed;top:0;height:auto;background-color:#5988be;z-index:9999;text-align:center}.page-header{margin-top:30px}.page-header h1{font-size:2em}
+.page-header img{margin-top:52px;margin-left:0;padding:0}.categorieWrap{padding:10px;margin-top:30px;border:15px solid #5988be;height:343px}.menu-cerco{height:auto;background-color:#5988be;z-index:9999}
+#ventajas-wrap .box-vn p{width:100%!important}.form-fixed{display:none}#form-wrapper-mob{padding:10px}#form-wrapper-mob .tab-content{padding:15px}.table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td{display:block;width:100%}
+.form-group>div{display:block;margin:auto 15px;width:90%}}
